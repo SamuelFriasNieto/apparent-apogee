@@ -1,0 +1,23 @@
+<a>
+    <slot name="before" />
+    <slot />
+    <slot name="after" />
+</a>
+
+<style>
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        padding: 0.3rem;
+        border-radius: .5rem;
+        transition: 250ms;
+        display: flex;
+        align-items: center;
+    }
+
+    a:hover {
+        background-color: #19274d;
+        box-shadow: 0 0 10px 8px #19274d;;
+    }
+</style>
